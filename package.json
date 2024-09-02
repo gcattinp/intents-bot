@@ -1,0 +1,17 @@
+{
+  "name": "nani-bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.5.2",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "viem": "^2.21.1"
+  }
+}
